@@ -1,7 +1,7 @@
 # Template file for 'corectrl'
 pkgname=corectrl
-version=1.0.8
-revision=2
+version=1.1.0
+revision=1
 wrksrc=${pkgname}-v${version}
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
@@ -14,7 +14,7 @@ maintainer="Lorem <notloremipsum@protonmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://gitlab.com/corectrl/corectrl"
 distfiles="${homepage}/-/archive/v${version}/corectrl-v${version}.tar.gz"
-checksum=050f1b4f105615c26dcb23d09bbdadbc619c9b9782197cae482fb6921f5e3cf2
+checksum=d73a02ee66e8572ff2a436cc608c2901a6eaf603d094a25aeab8c842696f399c
 patch_args="-Np1"
 
 if [ "$XBPS_TARGET_NO_ATOMIC8" ]; then
