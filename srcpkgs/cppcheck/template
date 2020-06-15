@@ -1,6 +1,6 @@
 # Template file for 'cppcheck'
 pkgname=cppcheck
-version=2.0
+version=2.1
 revision=1
 build_style=gnu-makefile
 make_build_args="
@@ -9,7 +9,6 @@ make_build_args="
  DB2MAN=/usr/share/xsl/docbook/manpages/docbook.xsl"
 make_install_args="${make_build_args}"
 make_build_target="cppcheck man"
-python_version="3"
 hostmakedepends="libxslt docbook-xsl python3 which"
 depends="python3"
 short_desc="Static analysis of C/C++ code"
@@ -18,7 +17,8 @@ license="GPL-3.0-or-later"
 homepage="http://cppcheck.sourceforge.net"
 changelog="https://sourceforge.net/p/cppcheck/news/"
 distfiles="https://github.com/danmar/cppcheck/archive/${version}.tar.gz"
-checksum=fdba69d9f8db4bbe27ee00bb88839d212b6a848372add7ad8f567236deb0f00f
+checksum=447d44bbaa555fa78b89dd2cb0203fd4c6f18269db8a78638b968ba7c72cb02e
+python_version="3"
 
 post_install() {
 	vman cppcheck.1
