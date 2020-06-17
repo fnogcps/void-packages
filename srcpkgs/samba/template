@@ -1,7 +1,7 @@
 # Template file for 'samba'
 pkgname=samba
-version=3.6.25
-revision=14
+version=4.12.3
+revision=1
 build_wrksrc=source3
 build_style=gnu-configure
 configure_args="--with-fhs --with-pam --with-pam_smbpass --with-ldap
@@ -15,10 +15,10 @@ configure_args="--with-fhs --with-pam --with-pam_smbpass --with-ldap
  --sbindir=/usr/bin"
 short_desc="SMB/CIFS file, print, and login server for Unix"
 maintainer="Orphaned <orphan@voidlinux.org>"
-license="GPL-3"
+license="GPL-3.0-or-later"
 homepage="http://www.samba.org"
 distfiles="http://us1.samba.org/samba/ftp/stable/$pkgname-$version.tar.gz"
-checksum=8f2c8a7f2bd89b0dfd228ed917815852f7c625b2bc0936304ac3ed63aaf83751
+checksum=3fadbca4504937820d0d8a34e500a1efdcc35e0c554f05bd0a844916ae528727
 
 lib32disabled=yes
 conf_files="/etc/pam.d/samba /etc/samba/smb.conf"
