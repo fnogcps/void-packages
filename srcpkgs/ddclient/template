@@ -1,16 +1,16 @@
 # Template file for 'ddclient'
 pkgname=ddclient
-version=3.9.0
-revision=3
+version=3.9.1
+revision=1
 archs=noarch
 hostmakedepends="unzip"
 depends="perl-Data-Validate-IP perl-IO-Socket-SSL"
 short_desc="Perl client used to update dynamic DNS"
 maintainer="rogi <rogi@skylittlesystem.org>"
 license="GPL-2.0-or-later"
-homepage="${SOURCEFORGE_SITE}/p/ddclient/wiki/Home/"
+homepage="https://sourceforge.net/p/ddclient/wiki/Home/"
 distfiles="${SOURCEFORGE_SITE}/${pkgname}/${pkgname}-${version}.zip"
-checksum=b4bc907eaadb1f30ccef8a11d92a30080ee21338cde89bf76b7d3d20a4499830
+checksum=3e672bda38292acc1a8063348bd84390532d981f53d11a5915c4fa2e889924af
 
 conf_files="/etc/ddclient/ddclient.conf"
 make_dirs="/var/cache/ddclient 0750 root root"
