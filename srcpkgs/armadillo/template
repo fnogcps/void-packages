@@ -1,7 +1,7 @@
 # Template file for 'armadillo'
 pkgname=armadillo
-version=9.700.2
-revision=2
+version=9.900.1
+revision=1
 build_style=cmake
 configure_args="-DDETECT_HDF5=$(vopt_if hdf5 ON OFF)"
 hostmakedepends="pkg-config openblas-devel"
@@ -11,7 +11,7 @@ maintainer="Julien Dehos <dehos@lisic.univ-littoral.fr>"
 license="Apache-2.0"
 homepage="http://arma.sourceforge.net/"
 distfiles="${SOURCEFORGE_SITE}/arma/${pkgname}-${version}.tar.xz"
-checksum=923f2b48974f707c9da3176aab8d370e8003de23277c17ca0e49fdf97fac08bd
+checksum=53d7ad6124d06fdede8d839c091c649c794dae204666f1be0d30d7931737d635
 
 build_options="hdf5"
 desc_option_hdf5="HDF5 support"
