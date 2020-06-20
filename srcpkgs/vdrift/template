@@ -1,4 +1,5 @@
 # Template file for 'vdrift'
+# rebuild
 pkgname=vdrift
 version=2014.10.20
 revision=9
