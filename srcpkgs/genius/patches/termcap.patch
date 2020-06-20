@@ -1,0 +1,18 @@
+--- genius-1.0.25/configure.ac
++++ genius-1.0.25/configure.ac
+@@ -63,14 +63,7 @@
+ AC_PATH_PROG(GLIB_GENMARSHAL, glib-genmarshal)
+ 
+ dnl Check for termcap
+-AC_CHECK_LIB(termcap, tgetent,[TERMCAP_LIB="-ltermcap"],
+-	     [AC_CHECK_LIB(ncurses, tgetent,
+-                           [TERMCAP_LIB="-lncurses"
+-                            AC_DEFINE(USE_NCURSES,[1], [Use ncurses library])
+-                            AC_CHECK_HEADER(ncurses/curses.h, [
+-					    AC_DEFINE(INC_NCURSES,[1],[ncurses include])])], [
+-			   AC_MSG_ERROR(Termcap library not found)])])
+-AC_SUBST(TERMCAP_LIB)
++PKG_CHECK_MODULES(TERMCAP, ncurses,,[AC_MSG_ERROR(Termcap library not found)])
+ 
+ dnl Check for readline
+ AC_CHECK_LIB(readline,readline, [READLINE_LIB="-lreadline"],
