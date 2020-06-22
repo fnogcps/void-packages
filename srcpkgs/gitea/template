@@ -1,6 +1,6 @@
 # Template file for 'gitea'
 pkgname=gitea
-version=1.11.6
+version=1.12.1
 revision=1
 build_style=go
 go_import_path=code.gitea.io/gitea
@@ -31,7 +31,7 @@ license="MIT"
 homepage="https://gitea.io"
 changelog="https://github.com/go-gitea/gitea/blob/master/CHANGELOG.md"
 distfiles="https://github.com/go-gitea/gitea/archive/v${version}.tar.gz"
-checksum=ab6dcc47d3ba3441c8b343bfc2db9bae0a6ea3cae53519211adfd7e4e2716db9
+checksum=dee2eab1b49ec80b09dbd1cba525c502f9c099f81c78c8e1413a032da9a5b038
 nocross="https://api.travis-ci.org/v3/job/616733825/log.txt"
 
 system_accounts="_gitea"
