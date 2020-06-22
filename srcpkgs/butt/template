@@ -1,8 +1,9 @@
 # Template file for 'butt'
 pkgname=butt
-version=0.1.19
+version=0.1.21
 revision=1
 build_style=gnu-configure
+configure_args="--disable-ssl"
 hostmakedepends="pkg-config"
 makedepends="fltk-devel portaudio-devel lame-devel libvorbis-devel libogg-devel
  libflac-devel opus-devel libsamplerate-devel fdk-aac-devel dbus-devel"
@@ -11,4 +12,4 @@ maintainer="1is7ac3 <isaac.qa13@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://danielnoethen.de"
 distfiles="${SOURCEFORGE_SITE}/butt/butt-${version}.tar.gz"
-checksum=e28f2e655600c57408da10bc680fb7989c988ae309193ecf99bebf1597a128dc
+checksum=53ccbdc35fa64c35db00252b6dfcc1c7fe7e2996415f6899773770696ed42ccb
