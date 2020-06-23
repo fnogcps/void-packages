@@ -1,4 +1,4 @@
-# Template file for 'efl'
+# Template file for efl (build)
 pkgname=efl
 version=1.24.3
 revision=1

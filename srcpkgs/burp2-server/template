@@ -1,4 +1,4 @@
-# Template file for 'burp2-server'
+# Template file for burp2-server (build)
 _desc="Network-based backup and restore program"
 
 pkgname=burp2-server

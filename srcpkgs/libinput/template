@@ -1,4 +1,4 @@
-# Template file for 'libinput'
+# Template file for libinput (build)
 pkgname=libinput
 version=1.15.6
 revision=1

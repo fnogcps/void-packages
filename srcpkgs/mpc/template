@@ -1,4 +1,4 @@
-# Template file for 'mpc'
+# Template file for mpc (build)
 pkgname=mpc
 version=0.33
 revision=1

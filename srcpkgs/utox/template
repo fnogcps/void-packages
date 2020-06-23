@@ -1,4 +1,4 @@
-# Template file for 'utox'
+# Template file for utox (build)
 pkgname=utox
 version=0.17.2
 revision=1

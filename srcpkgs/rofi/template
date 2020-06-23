@@ -1,4 +1,4 @@
-# Template file for 'rofi'
+# Template file for rofi (build)
 pkgname=rofi
 version=1.5.4
 revision=1

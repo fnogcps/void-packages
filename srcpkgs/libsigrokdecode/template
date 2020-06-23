@@ -1,4 +1,4 @@
-# Template file for 'libsigrokdecode'
+# Template file for libsigrokdecode (build)
 pkgname=libsigrokdecode
 version=0.5.3
 revision=1

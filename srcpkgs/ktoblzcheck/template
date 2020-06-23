@@ -1,4 +1,4 @@
-# Template file for 'ktoblzcheck'
+# Template file for ktoblzcheck (build)
 pkgname=ktoblzcheck
 version=1.50
 revision=1

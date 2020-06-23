@@ -1,4 +1,4 @@
-# Template file for 'linux-driver-management'
+# Template file for linux-driver-management (build)
 pkgname=linux-driver-management
 version=1.0.3
 revision=2

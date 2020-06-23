@@ -1,4 +1,4 @@
-# Template file for 'ykpivmgr'
+# Template file for ykpivmgr (build)
 _real_name="yubico-piv-tool"
 _libpiv_name="libykpiv"
 _libpiv_desc="Yubikey PIV management library"

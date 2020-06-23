@@ -1,4 +1,4 @@
-# Template file for 'libpipeline'
+# Template file for libpipeline (build)
 pkgname=libpipeline
 version=1.5.2
 revision=1

@@ -1,4 +1,4 @@
-# Template file for 'gdm'
+# Template file for gdm (build)
 pkgname=gdm
 version=3.34.1
 revision=1
@@ -31,7 +31,7 @@ conf_files="
 	/etc/pam.d/gdm-password
 	/etc/pam.d/gdm-pin
 	/etc/pam.d/gdm-smartcard"
-# Create the 'gdm' system user/group.
+# Create the gdm (build) system user/group.
 system_accounts="gdm"
 gdm_homedir="/var/lib/gdm"
 

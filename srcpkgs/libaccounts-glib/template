@@ -1,4 +1,4 @@
-# Template file for 'libaccounts-glib'
+# Template file for libaccounts-glib (build)
 pkgname=libaccounts-glib
 version=1.24
 revision=3

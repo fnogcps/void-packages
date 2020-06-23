@@ -1,4 +1,4 @@
-# Template file for 'libsignal-protocol-c'
+# Template file for libsignal-protocol-c (build)
 pkgname=libsignal-protocol-c
 version=2.3.3
 revision=1

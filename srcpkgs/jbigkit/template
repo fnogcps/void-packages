@@ -1,4 +1,4 @@
-# Template file for 'jbigkit'
+# Template file for jbigkit (build)
 pkgname=jbigkit
 version=2.2
 revision=1

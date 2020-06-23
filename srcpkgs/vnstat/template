@@ -1,4 +1,4 @@
-# Template file for 'vnstat'
+# Template file for vnstat (build)
 pkgname=vnstat
 version=2.6
 revision=1
